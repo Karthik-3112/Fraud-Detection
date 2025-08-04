@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[]:
 
 
 import streamlit as st
@@ -53,9 +53,6 @@ if st.button("Predict Fraud Status"):
     # Display result
     st.subheader(f"Prediction: {prediction_label}")
 
-
-
-# In[ ]:
 
 
 
